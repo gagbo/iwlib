@@ -15,14 +15,14 @@ To submit bug reports you can use the [bug tracker over at Github].
 
 ## Using cabal-install
 
-Xmobar is available from [Hackage], and you can install it using
+iwlib is available from [Hackage], and you can install it using
 `cabal-install`:
 
         cabal install iwlib
 
 ## From source
 
-If you don't have `cabal-install` installed, you can get xmobar's
+If you don't have `cabal-install` installed, you can get iwlib's
 source code in a variety of ways:
 
   - From [Hackage]. Just download the latest release from xmobar's
