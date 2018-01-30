@@ -1,7 +1,10 @@
 name:                iwlib
 version:             0.1.0
-synopsis:            A binding to the iw library for getting info about the current WiFi connection.
-homepage:            http://github.com/jaor/iwlib
+synopsis:            Bindings for the iw C library
+description:
+   A binding to the iw library for getting info about the current WiFi connection.
+homepage:            https://github.com/jaor/iwlib
+bug-reports:         https://github.com/jaor/iwlib/issues
 license:             BSD3
 license-file:        LICENSE
 author:              Jose Antonio Ortega Ruiz <jao@gnu.org>
@@ -9,6 +12,10 @@ maintainer:          Jose Antonio Ortega Ruiz <jao@gnu.org>
 category:            System, Network
 build-type:          Simple
 cabal-version:       >=1.10
+
+source-repository head
+  type: git
+  location: https://github.com/jaor/iwlib.git
 
 extra-source-files:  readme.md
 
