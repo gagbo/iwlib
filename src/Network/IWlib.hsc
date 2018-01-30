@@ -1,7 +1,7 @@
 -----------------------------------------------------------------------------
 -- |
 -- Module      :  IWlib
--- Copyright   :  (c) Jose A Ortega Ruiz
+-- Copyright   :  (c) 2018 Jose A Ortega Ruiz
 -- License     :  BSD-style (see LICENSE)
 --
 -- Maintainer  :  Jose A Ortega Ruiz <jao@gnu.org>
@@ -15,7 +15,7 @@
 {-# LANGUAGE CPP, ForeignFunctionInterface, EmptyDataDecls #-}
 
 
-module IWlib (WirelessInfo(..), getWirelessInfo) where
+module Network.IWlib (WirelessInfo(..), getWirelessInfo) where
 
 import Foreign
 import Foreign.C.Types
