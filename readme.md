@@ -1,4 +1,4 @@
-![Hackage](https://img.shields.io/hackage/v/iwlib.svg)
+[![Hackage](https://img.shields.io/hackage/v/iwlib.svg)](http://hackage.haskell.org/package/iwlib)
 
 # About
 
