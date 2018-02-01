@@ -1,0 +1,17 @@
+language: haskell
+
+ghc:
+  - 7.8
+  - 8.0
+  - 8.2
+
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y libiw-dev
+  - sudo apt-get install -y happy c2hs
+
+install:
+  - cabal install --only-dependencies --enable-tests -fall_extensions
+
+script:
+  - cabal configure --enable-tests -fall_extensions && cabal build && cabal test
