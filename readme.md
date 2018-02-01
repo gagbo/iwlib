@@ -1,4 +1,6 @@
 [![Hackage](https://img.shields.io/hackage/v/iwlib.svg)](http://hackage.haskell.org/package/iwlib)
+[![Build Status](https://travis-ci.org/jaor/iwlib.svg?branch=master)](https://travis-ci.org/jaor/iwlib)
+
 
 # About
 
