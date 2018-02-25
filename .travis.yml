@@ -11,7 +11,7 @@ before_install:
   - sudo apt-get install -y happy c2hs
 
 install:
-  - cabal install --only-dependencies --enable-tests -fall_extensions
+  - cabal install --only-dependencies --enable-tests
 
 script:
-  - cabal configure --enable-tests -fall_extensions && cabal build && cabal test
+  - cabal configure --enable-tests && cabal build && cabal test
