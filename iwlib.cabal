@@ -24,5 +24,5 @@ library
   includes:            iwlib.h
   default-language:    Haskell2010
   exposed-modules:     Network.IWlib
-  extra-libraries:     iw
+  extra-libraries:     iw m
   ghc-options:         -Wall
